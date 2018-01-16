@@ -73,9 +73,9 @@ public class UserController {
 	 * @return
 	 */
 	@PostMapping
-	public ModelAndView saveOrUpdateUser(User user, Model model) {
+	public ModelAndView saveOrUpdateUser(User user) {
 		user = userRepository.saveOrUpdateUser(user);
-		return new ModelAndView("users/form", "userModel", model);
+		return new ModelAndView("redirect:/users");
 	}
 
 	/**
