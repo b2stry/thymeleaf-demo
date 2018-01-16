@@ -20,8 +20,8 @@
 		</p>
 	</div>
 	<div>
-		<a th:href="@{'/users/delete'+${userModel.user.id}}">删除</a> <a
-			th:href="@{'/users/modify'+${userModel.user.id}}">修改</a>
+		<a th:href="@{'/users/delete/'+${userModel.user.id}}">删除</a> <a
+			th:href="@{'/users/modify/'+${userModel.user.id}}">修改</a>
 	</div>
 	<div th:replace="fragments/footer :: footer"></div>
 </body>
