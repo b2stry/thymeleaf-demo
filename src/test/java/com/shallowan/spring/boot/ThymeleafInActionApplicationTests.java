@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ThymeleafInAction1ApplicationTests {
+public class ThymeleafInActionApplicationTests {
 
 	@Test
 	public void contextLoads() {
