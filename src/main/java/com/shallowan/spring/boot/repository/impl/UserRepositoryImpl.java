@@ -14,7 +14,7 @@ import com.shallowan.spring.boot.repository.UserRepository;
 @Repository
 public class UserRepositoryImpl implements UserRepository {
 
-	private static AtomicLong counter = new AtomicLong(); // ��������ֹid�ظ�
+	private static AtomicLong counter = new AtomicLong(); // 计数器
 	private final ConcurrentMap<Long, User> userMap = new ConcurrentHashMap<>();
 
 	@Override
