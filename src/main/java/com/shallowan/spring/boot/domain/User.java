@@ -1,7 +1,7 @@
 package com.shallowan.spring.boot.domain;
 
 /**
- * User 实体
+ * User 瀹炰綋
  * 
  * @author Elliot
  *
@@ -10,7 +10,7 @@ package com.shallowan.spring.boot.domain;
 public class User {
 
 	/**
-	 * 实体一个唯一标识
+	 * 瀹炰綋涓�涓敮涓�鏍囪瘑
 	 */
 	private Long id;
 
