@@ -14,13 +14,13 @@ import com.shallowan.spring.boot.repository.UserRepository;
 @Repository
 public class UserRepositoryImpl implements UserRepository {
 
-	private static AtomicLong counter = new AtomicLong(); // ¼ÆÊý£¬·ÀÖ¹idÖØ¸´
+	private static AtomicLong counter = new AtomicLong(); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¹idï¿½Ø¸ï¿½
 	private final ConcurrentMap<Long, User> userMap = new ConcurrentHashMap<>();
 
 	@Override
 	public User saveOrUpdateUser(User user) {
 		Long id = user.getId();
-		if (id == null) { // ÐÂ½¨
+		if (id == null) { // æ–°å»º
 			id = counter.incrementAndGet();
 			user.setId(id);
 		}

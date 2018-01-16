@@ -5,7 +5,7 @@ import java.util.List;
 import com.shallowan.spring.boot.domain.User;
 
 /**
- * User Repository½Ó¿Ú
+ * User Repositoryæ¥å£
  * 
  * @author Elliot
  *
@@ -13,7 +13,7 @@ import com.shallowan.spring.boot.domain.User;
 public interface UserRepository {
 
 	/**
-	 * ´´½¨»òÕßĞŞ¸ÄÓÃ»§
+	 * åˆ›å»ºæˆ–è€…ä¿®æ”¹ç”¨æˆ·
 	 * 
 	 * @param user
 	 * @return
@@ -21,14 +21,14 @@ public interface UserRepository {
 	User saveOrUpdateUser(User user);
 
 	/**
-	 * É¾³ıÓÃ»§
+	 * åˆ é™¤ç”¨æˆ·
 	 * 
 	 * @param id
 	 */
 	void deleteUser(Long id);
 
 	/**
-	 * ¸ù¾İid²éÑ¯ÓÃ»§
+	 * æ ¹æ®idæŸ¥è¯¢ç”¨æˆ·
 	 * 
 	 * @param id
 	 * @return
@@ -36,7 +36,7 @@ public interface UserRepository {
 	User getUserById(Long id);
 
 	/**
-	 * »ñÈ¡ÓÃ»§ÁĞ±í
+	 * è·å–ç”¨æˆ·åˆ—è¡¨
 	 * 
 	 * @return
 	 */
